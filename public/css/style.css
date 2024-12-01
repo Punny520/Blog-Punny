@@ -2125,18 +2125,18 @@ img.lazyload:not(.placeholder).loaded {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
-  margin-top: -48px;
-  height: 96px;
+  margin-top: -32px;
+  height: 80px;
   visibility: hidden;
   pointer-events: none;
 }
 .md h1:before,
 .md h2:before {
-  margin-top: -32px;
+  margin-top: -16px;
 }
 .md .article-meta+h1,
 .md .article-meta+h2 {
-  margin-top: -80px;
+  margin-top: -64px;
 }
 .md h3,
 .md h4,
@@ -2145,16 +2145,16 @@ img.lazyload:not(.placeholder).loaded {
   margin-bottom: 1em;
 }
 .md h3:before {
-  margin-top: -56px;
+  margin-top: -40px;
 }
 .md h4:before {
-  margin-top: -64px;
+  margin-top: -48px;
 }
 .md h5 {
   font-weight: bold;
 }
 .md h2+h3:before {
-  margin-top: -80px;
+  margin-top: -64px;
 }
 .md ul,
 .md ol {
@@ -2786,7 +2786,7 @@ img.lazyload:not(.placeholder).loaded {
 }
 #l_side .widget.sticky {
   position: sticky;
-  top: 80px;
+  top: 64px;
   z-index: 1;
 }
 #l_side .widget >.content {
@@ -3397,7 +3397,7 @@ img.lazyload:not(.placeholder).loaded {
 }
 .widget-sticky {
   position: sticky;
-  top: 80px;
+  top: 64px;
   z-index: 10;
 }
 .bber-talk {
@@ -3523,7 +3523,7 @@ img.lazyload:not(.placeholder).loaded {
   padding-bottom: 4px;
 }
 #l_side .toc-wrapper .content {
-  max-height: calc(100vh - 144px);
+  max-height: calc(100vh - 128px);
 }
 #l_side .toc-wrapper .content a {
   border-left: 2px solid transparent;
@@ -3544,7 +3544,7 @@ img.lazyload:not(.placeholder).loaded {
     max-height: 1000px;
     width: auto;
     max-width: calc(100% - 2 * 16px);
-    top: 48px;
+    top: 32px;
     right: 16px;
     border-radius: 4px;
     -webkit-border-radius: 4px;

@@ -1,3 +1,11 @@
 cover:
   height_scheme: half
-  background: images/background/1.png
+  layout_scheme: blank
+  background: images/background/1.png #背景图片
+navbar:
+  visiable: always # always, auto
+custom_css:
+  navbar:
+    height: 48px                         # 导航栏高度
+    width: auto                           # 宽度：auto(自适应)或max(最大宽度)
+    effect: [shadow, blur, floatable] # [shadow, floatable, blur]
