@@ -1,0 +1,9 @@
+@echo off
+chcp 65001
+echo 正在清理...
+call hexo clean
+echo 正在生成...
+call hexo g
+echo 正在启动服务器...
+call hexo s
+pause 
