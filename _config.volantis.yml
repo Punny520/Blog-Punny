@@ -2,3 +2,7 @@ cover:
   background: images/background/background.png
 navbar:
   visiable: always
+  logo: # choose [img] or [icon + title]
+    img:
+    icon:
+    title: Punny`s Blog
