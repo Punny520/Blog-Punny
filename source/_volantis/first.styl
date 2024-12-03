@@ -1,0 +1,13 @@
+#l_header {
+  background: transparent !important;  // 设置背景透明
+  
+  .nav-main {
+    background: rgba(255, 255, 255, 0) !important;  // 导航栏背景透明
+    box-shadow: none !important;  // 移除阴影
+    
+    // 如果需要在滚动时才显示背景，可以添加
+    &.show {
+      background: rgba(255, 255, 255, 0.9) !important;  // 滚动时的背景色
+    }
+  }
+}

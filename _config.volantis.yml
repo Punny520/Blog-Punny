@@ -1,2 +1,4 @@
 cover:
   background: images/background/background.png
+navbar:
+  visiable: always
